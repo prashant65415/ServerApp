@@ -17,4 +17,6 @@ There are other ways to implement this like:
 back to ClientApp. Implement OnActivityResult in ClientApp to receive the result. The problem with this approach is, when we 
 call StartActivityForResult, ServerActivity is shown and it is an interruption in UI.
 
+Implemented test case in MainActivityTest.java file of ClientApp Application.
+
 Connecting to server and getting the response should be performed in background as Service. And then send the result to ClientApp.
